@@ -17,8 +17,7 @@
     <hr>
 
     <input type="text" v-model="taskInput" required>
-    <button @click="addTasks" v-if="taskInput === '' " disabled>Add Task</button>
-    <button @click="addTasks" v-else>Add Task</button>
+    <button @click="addTasks">Add Task</button>
     <p v-if="tasks.length === 0">No task Added Yet</p>
     <ul v-else v-show="tbtn === false">
       <li v-for="task in tasks" :key="task">{{ task }}</li>
