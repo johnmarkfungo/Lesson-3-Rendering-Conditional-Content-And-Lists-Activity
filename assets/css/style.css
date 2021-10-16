@@ -69,6 +69,7 @@ li{
   padding: 0.5rem;
   border-radius: 10px;
   background: #333;
+  color: white;
 }
 
 @media (max-width: 678px){
